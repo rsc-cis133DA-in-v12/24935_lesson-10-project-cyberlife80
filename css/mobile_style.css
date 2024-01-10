@@ -1,0 +1,182 @@
+/*breakpoint value larger than 900px.*/
+
+/** 
+    Author: TRE2019160
+    Course: CIS133DA
+    Section: # 24935
+    Lesson: 10
+**/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+}
+#wrapper {
+    background-color: #ddd;
+    margin-top: 0px;
+    width: 100%;
+}
+
+/* Header Styles */
+header {
+    background: rgb(134, 133, 133) url(../images/background.jpg) no-repeat center;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    margin-top: 0%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 20px;
+    
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    margin-bottom: 0px;
+    margin-top: 70px;
+}
+/* Navigation Bar Styles */
+nav ul {
+    list-style-type: none;
+    background-color: #2d3437;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    float: left;
+}
+nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+nav a:hover {
+    background-color: #0945c7;
+    color: #ffffff;
+}
+nav .right {
+    background-color: #fc03e7;
+    color: #000000;
+    float: right;
+}
+nav .active {
+    background-color: #fc03e7;
+    color: #000000;
+}
+nav {
+    top: 0;
+    position: absolute;
+    width: 100%;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+   
+   
+}
+
+/* Main Styles */
+
+img {
+    padding: 30px;
+    background-color: #f301fc;
+    float: left;
+    box-sizing: border-box;
+    
+    }
+    @media only screen and (min-width: 0px) and (orientation: portrait){
+    }
+    
+    body{
+    margin-bottom: 0%;
+    margin-left: 0%;
+
+    background-color: #fcfdfc;
+    width: 100%;
+    
+    
+    }
+    
+    header {
+        background: rgb(134, 133, 133) url(../images/background.jpg) no-repeat center;
+        background-size: cover;
+        color: rgb(255, 255, 255);
+        margin-top: 0%;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        padding-top: 20px;
+        width: 100%; 
+    }
+    
+    aside{
+        font-size: 70%;
+        padding-right: 150%;
+        padding-left: 35%;
+        padding-top: 5%;
+        padding-bottom: 10;
+        margin-top: 0px;
+        margin-bottom: 0%;
+        margin-right: 0px;
+        width: 80%;
+        font-weight: lighter;
+        position: relative; 
+        }
+    div, .start1{
+    
+    width: 90%;
+    margin-bottom: 10px;
+    margin-top:10px;
+    margin-left: 0;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 12px;
+    font-size: small;
+    text-align: left;
+    background-color: #fff
+    
+    }
+    
+    img {
+    padding: 30px;
+    background-color: #f301fc;
+    float: left;
+    box-sizing: border-box;
+    width: 100px;
+    
+    }
+    
+    nav {
+    top: 0;
+    position: absolute;
+    width: 100%;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    display: block;
+    font-size: x-small;}
+
+div {
+margin-left: 0px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #06aef7;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+}
