@@ -10,10 +10,10 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-    display: block;
     box-sizing: border-box;
+    padding-bottom: 10px;
     width: 100%;
-   
+
     
 }
 #wrapper {
@@ -21,13 +21,14 @@ body {
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     padding-right: 0px;
     padding-left: 0px;
-    padding-bottom: 5px;
+    padding-bottom: 20px;
     padding-top: 0px;
   
     width: 100%;
+  
 }
 
 /* Header Styles */
@@ -92,112 +93,92 @@ nav {
 
 /* Main Styles */
 
-#start1 {
-
-   width: 40%;
-   margin-right: 0px;
-   margin-top: 20px;
-   margin-left: 40px;
-   margin-bottom: 20px;
-
-    
-    }   
-aside {
-font-size: 73%;
-padding-right: 2px;
-padding-left: 22%;
-padding-top: 0%;
-padding-bottom: 0%;
-margin-right: 0px;
-margin-bottom: 0px;
-margin-left: 20px;
-margin-top: 0px;
-
-    
-}
-
-
-div {
-
-padding-bottom: 0%;
-
-
-}
-
-
 img {
 padding: 30px;
 background-color: #f301fc;
 float: left;
 box-sizing: border-box;
 
+}
+@media only screen and (min-width: 0px) and (orientation: portrait){
+}
+
+body{
+margin-bottom: 0%;
+margin-left: 0%;
+background-color: #fcfdfc;
 
 
-} 
+}
 
-@media only screen and (min-width: 900px){
 
-} 
+header {
+    background: rgb(134, 133, 133) url(../images/background.jpg) no-repeat center;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    margin-top: 0%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 20px;
+    width: 100%; 
+}
 
+
+
+aside{
+    font-size: 73%;
+    padding-right: 0%;
+    padding-left: 25%;
+    padding-top: 5%;
+    padding-bottom: 0%;
+    margin-top: 0px;
+    margin-bottom: 0%;
+    width: 80%;
+    font-weight: lighter;
+    position: relative;
+
+        
+    }
 div, .start1{
 
-width: 100%;
-margin-bottom: 0px;
-margin-top:0px;
-margin-right: 0px;
+width: 90%;
+margin-bottom: 10px;
+margin-top:10px;
 padding-top: 0px;
-padding-bottom: 0px;
+padding-bottom: 8px;
 text-align: left;
-background-color: #ffffff;
-display: block;
+background-color: #fff
 
 }
-   
-div {
+
+img {
+padding: 30px;
+background-color: #f301fc;
 float: left;
-margin-right: 30px;
-}
-
-       
- aside {
- font-size: 73%;
- padding-right: 20px;
- padding-left: 22%;
- padding-top: 2%;
- padding-bottom: 0%;
- margin-right: 0px;
- margin-bottom: 0px;
- margin-left: 20px;
- margin-top: 0px;
- width: 60%;
- font-size: smaller;
- 
-     
- }
- 
- img {
- padding: 30px;
- background-color: #f301fc;
- float: left;
- box-sizing: border-box;
+box-sizing: border-box;
 width: 100px;
+
 }
- 
 
-
-
-
+nav {
+top: 0;
+position: absolute;
+width: 100%;
+padding-top: 0px;
+padding-left: 0px;
+padding-right: 0px;
+padding-bottom: 0px;
+display: block;
+font-size: x-small;}
 
 /* Footer Styles */
 footer {
-    background-color: #2d3437;
-    color: rgb(252, 251, 251);
+    background-color: #4ffd04;
+    color: rgb(77, 75, 75);
     text-align: center;
-    padding: 30px;
-    
+    padding: 10px;
 }
 footer a {
-    color: white;
+    color: rgb(100, 100, 238);
 }
-
 
